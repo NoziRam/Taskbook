@@ -18,9 +18,12 @@ namespace Abramyan
             double d = Math.Pow(a, s);
             //double d = a * a;
             Console.WriteLine(d);
+<<<<<<< HEAD
             
             
 
+=======
+>>>>>>> 1f35ed1aefb46d2d0dc05d59547fa0c84c2bf5a3
 
 
         }
