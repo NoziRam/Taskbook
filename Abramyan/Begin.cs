@@ -18,12 +18,17 @@ namespace Abramyan
             double d = Math.Pow(a, s);
             //double d = a * a;
             Console.WriteLine(d);
-<<<<<<< HEAD
-            
-            
 
-=======
->>>>>>> 1f35ed1aefb46d2d0dc05d59547fa0c84c2bf5a3
+            // Begin-3
+
+            Console.WriteLine("please enter the number");
+            double a3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            double b3 = Convert.ToDouble(Console.ReadLine());
+
+            double s3 = a3 * b3;
+            double p3 = 2 * (a3 + b3);
+            Console.WriteLine("S=" + s3 + "\t P=" + p3);
 
 
         }
