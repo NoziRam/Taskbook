@@ -66,6 +66,22 @@ namespace Abramyan
 
             double s9 = Math.Sqrt(a9 * b9);
             Console.WriteLine(s9);
+<<<<<<< HEAD
+=======
+
+            // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
+            Console.WriteLine("Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.");
+            Console.WriteLine("please enter the number");
+            double a10 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            double b10 = Convert.ToDouble(Console.ReadLine());
+            double s10 = Math.Sqrt(a10) + Math.Sqrt(b10);
+            double s101 = Math.Sqrt(a10) - Math.Sqrt(b10);
+            double s102 = Math.Sqrt(a10) * Math.Sqrt(b10);
+            double s103 = Math.Sqrt(a10) / Math.Sqrt(b10);
+
+            Console.WriteLine($"s= {s101}, s1= {s101},s2= {s102}, s3= {s103}");
+>>>>>>> 3678aa96f24750935a405f507670d1fe76ba1688
 
             // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
             Console.WriteLine("Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.");
