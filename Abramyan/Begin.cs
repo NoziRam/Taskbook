@@ -20,15 +20,15 @@ namespace Abramyan
             //double d = a * a;
             Console.WriteLine(d);
 
-<<<<<<< HEAD
+
             // Begin-3 Даны стороны прямоугольника a и b. Найти его площадь S = a·b и периметр P = 2·(a + b).
             Console.WriteLine("Даны стороны прямоугольника a и b. Найти его площадь S = a·b и периметр P = 2·(a + b).");
                         Console.WriteLine("please enter the number");
-=======
+
             // Begin-3
 
             Console.WriteLine("please enter the number");
->>>>>>> b3751172b697e195ec9ed42354738d97f61b35c7
+
             double a3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("please enter the number");
             double b3 = Convert.ToDouble(Console.ReadLine());
@@ -36,7 +36,7 @@ namespace Abramyan
             double s3 = a3 * b3;
             double p3 = 2 * (a3 + b3);
             Console.WriteLine("S=" + s3 + "\t P=" + p3);
-<<<<<<< HEAD
+
 
             // Begin-7 Найти длину окружности L и площадь круга S заданного радиуса R:
 
@@ -66,8 +66,19 @@ namespace Abramyan
 
             double s9 = Math.Sqrt(a9 * b9);
             Console.WriteLine(s9);
-=======
->>>>>>> b3751172b697e195ec9ed42354738d97f61b35c7
+
+            // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
+            Console.WriteLine("Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.");
+            Console.WriteLine("please enter the number");
+            double a10 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            double b10 = Convert.ToDouble(Console.ReadLine());
+            double s10 = Math.Sqrt(a10) + Math.Sqrt(b10);
+            double s101 = Math.Sqrt(a10) - Math.Sqrt(b10);
+            double s102 = Math.Sqrt(a10) * Math.Sqrt(b10);
+            double s103 = Math.Sqrt(a10) / Math.Sqrt(b10);
+
+            Console.WriteLine($"s= {s101}, s1= {s101},s2= {s102}, s3= {s103}");
 
 
         }
