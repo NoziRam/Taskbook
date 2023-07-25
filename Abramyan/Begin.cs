@@ -66,6 +66,13 @@ namespace Abramyan
 
             double s9 = Math.Sqrt(a9 * b9);
             Console.WriteLine(s9);
+<<<<<<< .mine
+
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> .theirs
 
 
             // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
@@ -80,6 +87,11 @@ namespace Abramyan
             double s103 = Math.Sqrt(a10) / Math.Sqrt(b10);
 
             Console.WriteLine($"s= {s101}, s1= {s101},s2= {s102}, s3= {s103}");
+<<<<<<< .mine
+
+=======
+>>>>>>> 3678aa96f24750935a405f507670d1fe76ba1688
+>>>>>>> .theirs
 
 
             
