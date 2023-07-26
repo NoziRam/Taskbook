@@ -66,13 +66,11 @@ namespace Abramyan
 
             double s9 = Math.Sqrt(a9 * b9);
             Console.WriteLine(s9);
-<<<<<<< .mine
 
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .theirs
+
+
+
 
 
             // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
@@ -87,11 +85,7 @@ namespace Abramyan
             double s103 = Math.Sqrt(a10) / Math.Sqrt(b10);
 
             Console.WriteLine($"s= {s101}, s1= {s101},s2= {s102}, s3= {s103}");
-<<<<<<< .mine
 
-=======
->>>>>>> 3678aa96f24750935a405f507670d1fe76ba1688
->>>>>>> .theirs
 
 
             
@@ -107,6 +101,38 @@ namespace Abramyan
             double s113 = Math.Abs(a11) / Math.Abs(b11);
 
             Console.WriteLine($"s= {s111}, s1= {s111},s2= {s112}, s3= {s113}");
+
+
+
+            // Begin-12 Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c =√a2 + b2, P = a + b + c.
+            Console.WriteLine("Begin-12 Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c =√a2 + b2, P = a + b + c.");
+            Console.WriteLine("please enter the number");
+            double a12 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            double b12 = Convert.ToDouble(Console.ReadLine());
+            double c12 = Math.Sqrt(Math.Sqrt(a12) + Math.Sqrt(b12));
+            double p12 = a12 + c12 + b12;
+
+            Console.WriteLine(p12);
+
+
+            /* Begin-13  Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2).
+Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний радиус которого равен R1, а внутренний радиус равен R2:
+S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значения π использовать 3.14.*/
+            Console.WriteLine("Даны два круга с общим центром и радиусами R1 и R2 (R1 > R2). Найти площади этих кругов S1 и S2, а также площадь S3 кольца, внешний радиус которого равен R1, а внутренний радиус равен R2:S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значения π использовать 3.14.");
+           
+            Console.Write("r1=");
+            double r131 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("r2=");
+            double r132 = Convert.ToDouble(Console.ReadLine());
+
+            double s131 = 3.14 * Math.Pow(r131, 2);
+            Console.WriteLine("s1=" + s131);
+            double s132 = 3.14 * Math.Pow(r132, 2);
+            Console.WriteLine("s2=" + s132);
+            double s133 = s131 - s132;
+            Console.WriteLine("s3=" + s133);
+
 
         }
 
