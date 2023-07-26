@@ -66,13 +66,11 @@ namespace Abramyan
 
             double s9 = Math.Sqrt(a9 * b9);
             Console.WriteLine(s9);
-<<<<<<< .mine
 
 
-=======
-<<<<<<< HEAD
-=======
->>>>>>> .theirs
+
+
+
 
 
             // Begin-10 Даны два ненулевых числа. Найти сумму, разность, произведение и частное их квадратов.
@@ -87,11 +85,7 @@ namespace Abramyan
             double s103 = Math.Sqrt(a10) / Math.Sqrt(b10);
 
             Console.WriteLine($"s= {s101}, s1= {s101},s2= {s102}, s3= {s103}");
-<<<<<<< .mine
 
-=======
->>>>>>> 3678aa96f24750935a405f507670d1fe76ba1688
->>>>>>> .theirs
 
 
             
@@ -107,6 +101,19 @@ namespace Abramyan
             double s113 = Math.Abs(a11) / Math.Abs(b11);
 
             Console.WriteLine($"s= {s111}, s1= {s111},s2= {s112}, s3= {s113}");
+
+
+
+            // Begin-12 Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c =√a2 + b2, P = a + b + c.
+            Console.WriteLine("Begin-12 Даны катеты прямоугольного треугольника a и b. Найти его гипотенузу c и периметр P: c =√a2 + b2, P = a + b + c.");
+            Console.WriteLine("please enter the number");
+            double a12 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            double b12 = Convert.ToDouble(Console.ReadLine());
+            double c12 = Math.Sqrt(Math.Sqrt(a12) + Math.Sqrt(b12));
+            double p12 = a12 + c12 + b12;
+
+            Console.WriteLine(p12);
 
         }
 
