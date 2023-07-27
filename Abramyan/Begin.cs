@@ -134,7 +134,29 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             double s133 = s131 - s132;
             Console.WriteLine("s3=" + s133);
 
+            // Begin-15
+            /*
+. Дана площадь S круга. Найти его диаметр D и длину L окружности, ограничивающей этот круг, учитывая, что L = 2·π·R, S = π·R
+2. В качестве значения π использовать 3.14.*/
 
+            Console.Write("please enter the number s=");
+            double s15 = Convert.ToDouble(Console.ReadLine());
+
+            double d15 = Math.Sqrt(s15 * 4 / Math.PI);
+            double l15 = Math.PI * d15;
+            Console.WriteLine(l15);
+
+            // Begin-16
+            /*Найти расстояние между двумя точками с заданными координатами x1 и x2 на числовой оси: |x2 − x1|.*/
+
+            Console.Write("please enter the number x1=");
+            double x161 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("please enter the number x2=");
+            double x162 = Convert.ToDouble(Console.ReadLine());
+
+            double l16 = Math.Abs(x162 - x161);
+
+            Console.WriteLine(l16);
 
         }
 
