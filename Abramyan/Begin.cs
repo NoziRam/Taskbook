@@ -172,6 +172,11 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             double b17 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("c=");
             double c17 = Convert.ToDouble(Console.ReadLine());
+            double daroziAC = Math.Abs(A17 - c17);
+            double daroziBC = Math.Abs(b17 - c17);
+            double summa = daroziAC + daroziBC;
+            Console.WriteLine($"{daroziAC}, {daroziBC}, {summa}");
+
 
         }
 
