@@ -177,7 +177,20 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             double summa = daroziAC + daroziBC;
             Console.WriteLine($"{daroziAC}, {daroziBC}, {summa}");
 
+            /*Begin18◦
+. Даны три точки A, B, C на числовой оси. Точка C расположена между точками A и B. Найти произведение длин отрезков AC и BC.*/
+            Console.WriteLine("Даны три точки A, B, C на числовой оси. Точка C расположена между точками A и B. Найти произведение длин отрезков AC и BC.");
+            Console.WriteLine("please enter the number");
+            int A18 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            int B18 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            int C18 = Convert.ToInt32(Console.ReadLine());
 
+            int AC = A18 - B18;
+            int BC = B18 - C18;
+            double Product = AC * BC;
+            Console.WriteLine($"{Product}");
         }
 
 
