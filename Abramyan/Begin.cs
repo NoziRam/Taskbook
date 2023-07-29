@@ -177,6 +177,39 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             double summa = daroziAC + daroziBC;
             Console.WriteLine($"{daroziAC}, {daroziBC}, {summa}");
 
+            /*Begin18◦
+. Даны три точки A, B, C на числовой оси. Точка C расположена между точками A и B. Найти произведение длин отрезков AC и BC.*/
+            Console.WriteLine("Даны три точки A, B, C на числовой оси. Точка C расположена между точками A и B. Найти произведение длин отрезков AC и BC.");
+            Console.WriteLine("please enter the number");
+            int A18 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            int B18 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            int C18 = Convert.ToInt32(Console.ReadLine());
+
+            int AC = A18 - B18;
+            int BC = B18 - C18;
+            double Product = AC * BC;
+            Console.WriteLine($"{Product}");
+
+            /*Begin19◦
+ . Даны координаты двух противоположных вершин прямоугольника:
+ (x1, y1), (x2, y2). Стороны прямоугольника параллельны осям координат.
+ Найти периметр и площадь данного прямоугольника.*/
+            Console.WriteLine("/*Begin19◦ .Даны координаты двух противоположных вершин прямоугольника: (x1, y1), (x2, y2).Стороны прямоугольника параллельны осям координат. Найти периметр и площадь данного прямоугольника.*/ ");
+            int X191, Y191, X192, Y192;
+            Console.WriteLine("please enter the number");
+            X191 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            Y191 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            X192 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("please enter the number");
+            Y192 = Convert.ToInt32(Console.ReadLine());
+            double P = 2 * (Math.Abs(X191 - X192) + Math.Abs(Y191 - Y192));
+            double S = Math.Abs(X191 - X192) * Math.Abs(Y191 - Y192);
+            Console.WriteLine($" P={P} S= {S}");
+
 
         }
 
