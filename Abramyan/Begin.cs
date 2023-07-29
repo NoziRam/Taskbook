@@ -186,6 +186,7 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             int B18 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("please enter the number");
             int C18 = Convert.ToInt32(Console.ReadLine());
+<<<<<<< HEAD
 
             int AC = A18 - B18;
             int BC = B18 - C18;
@@ -210,7 +211,13 @@ S1 = π·(R1)2, S2 = π·(R2)2, S3 = S1 − S2.В качестве значен�
             double S = Math.Abs(X191 - X192) * Math.Abs(Y191 - Y192);
             Console.WriteLine($" P={P} S= {S}");
 
+=======
+>>>>>>> e2029900a28f8d01d8c2f09a9b3d622cf5bb25c3
 
+            int AC = A18 - B18;
+            int BC = B18 - C18;
+            double Product = AC * BC;
+            Console.WriteLine($"{Product}");
         }
 
 
